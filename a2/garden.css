@@ -1,0 +1,197 @@
+body {
+    background: darkblue;
+    height: 100vh;
+  
+  }
+
+  a:hover {
+    background-color: yellow;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    body {
+      background: linear-gradient(to bottom, darkblue, blue);
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    body {
+      background: linear-gradient(to bottom, darkblue, pink);
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    body {
+      background: linear-gradient(to bottom, pink, lightblue);
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    body {
+      background: lightblue;
+    }
+  }
+
+#square-1 {
+    width: 1360px;
+    height: 400px;
+    background-color: darkgreen;
+    position: absolute;
+    top: 400px;
+    left: 0px;
+
+}
+
+#square-2 {
+    width: 600px;
+    height: 250px;
+    background-color: rgb(105, 72, 0);
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    transform: skew(-20deg);
+
+}
+
+
+  .sun {
+    background-color:#fff;
+    border-radius:50%;
+    box-shadow:0 0 10vh 10vh #fff;
+    height:10vh;
+    position:fixed;
+    right:2vh;
+    top:2vh;
+    width:10vh;
+  }
+
+
+
+  .circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  a:hover {
+    background-color: yellow;
+  }
+  
+  #circle-1 {
+    position: absolute;
+    top: 410px;
+    left: 860px;
+    background-color: lightblue;
+    border: 7px solid pink ;
+    
+}
+
+  
+  #circle-2 {
+    position: absolute;
+    top: 500px;
+    left: 720px;
+    background-color: green;
+    border: 7px solid red ;
+  }
+
+  #circle-3 {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    background-color: orange;
+    border: 7px solid violet ;
+  }
+
+  #circle-4 {
+    position: absolute;
+    top: 450px;
+    left: 400px;
+    background-color: black;
+    border: 7px solid purple ;
+  }
+
+  #circle-5 {
+    position: absolute;
+    top: 400px;
+    left: 650px;
+    background-color: yellow;
+    border: 7px solid yellowgreen ;
+  }
+
+  #circle-6 {
+    position: absolute;
+    top: 470px;
+    left: 550px;
+    background-color: rgb(255, 0, 212);
+    border: 7px solid red ;
+  }
+
+  #circle-7 {
+    position: absolute;
+    top: 300px;
+    left: 750px;
+    background-color: rgb(0, 255, 234);
+    border: 7px solid rgb(94, 255, 0) ;
+  }
+  
+  
+
+  .stem {
+    width: 10px;
+    height: 90px;
+  }
+  
+  #stem-1 {
+    position: absolute;
+    top: 450px;
+    left: 895px;
+    background-color: lightblue;
+}
+  
+  #stem-2 {
+    position: absolute;
+    top: 550px;
+    left: 755px;
+    background-color: green;
+  }
+
+  #stem-3 {
+    position: absolute;
+    top: 350px;
+    left: 530px;
+    background-color: orange;
+  }
+
+  #stem-4 {
+    position: absolute;
+    top: 510px;
+    left: 430px;
+    background-color: black;
+  }
+
+  #stem-5 {
+    position: absolute;
+    top: 450px;
+    left: 680px;
+    background-color: yellow;
+  }
+
+  #stem-6 {
+    position: absolute;
+    top: 530px;
+    left: 580px;
+    background-color: rgb(255, 0, 212);
+  }
+
+  #stem-7 {
+    position: absolute;
+    top: 350px;
+    left: 785px;
+    background-color: rgb(0, 255, 234);
+  }
+  
+  
+
+
+  
