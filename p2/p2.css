@@ -5,7 +5,7 @@ body {
 }
 p{
 
-    margin: 150px;
+    margin: 270px;
     position: relative;
     top: 0px;
     font-family: 'Courier New', Courier, monospace;
@@ -16,14 +16,14 @@ p{
     
 .image1
 {
-width: 150px;
+width: 140px;
 height: 410px;
 align-content: flex-start;
 }
 
 .image2
 {
-width: 126px;
+width: 117px;
 height:181px;
 position: absolute;
 top: 0px;
