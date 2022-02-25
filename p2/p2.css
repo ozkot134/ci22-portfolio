@@ -1,13 +1,14 @@
 body {
     margin: 0px;
-    height: 100%;
-    position: absolute;
+    height: 100vh;
+    position: relative;
 }
 p{
 
-    margin: 270px;
-    position: relative;
-    top: 0px;
+    margin: 265px;
+    position: absolute;
+    top: 70px;
+    left: 45px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 12px;
     line-height: 18pt;
@@ -40,12 +41,56 @@ left: 220px;
 
 }
 
+.image4
+{
+width: 800px;
+height: 1000px;
+position: absolute;
+top: 1020px;
+left: 220px;
+
+}
+
+.image5
+{
+width: 800px;
+height: 1000px;
+position: absolute;
+top: 2040px;
+left: 220px;
+
+}
+
+.image6
+{
+width: 800px;
+height: 1000px;
+position: absolute;
+top: 3060px;
+left: 220px;
+
+}
+
+
+
 .shadows {
-    color: #D2952A;
+    background-image: linear-gradient(
+     to right,
+     #462523 0,
+            #cb9b51 22%, 
+     #f6e27a 45%,
+     #f6f2c0 50%,
+     #f6e27a 55%,
+     #cb9b51 78%,
+     #462523 100%
+     );
+    color:transparent;
+    -webkit-background-clip:text;
   }
 
 .eaves {
     color: #D2952A;
+    text-shadow: 1px 1px 2px #D2952A, 0 0 1em #D2952A, 0 0 0.2em, #D2952A;
   }
 
   .indirectlight {
