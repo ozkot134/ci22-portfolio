@@ -2,6 +2,7 @@ body {
     margin: 0px;
     height: 100vh;
     position: relative;
+    background-color: rgb(249, 240, 225);
 }
 p{
 
@@ -29,6 +30,12 @@ height:181px;
 position: absolute;
 top: 0px;
 left: 1100px;
+}
+
+.image2:hover {
+  content: url('project 2 part 2-16.png');
+  width: 117px;
+  height:181px;
 }
 
 .image3
@@ -90,7 +97,7 @@ left: 220px;
 
 .eaves {
     color: #D2952A;
-    text-shadow: 1px 1px 2px #D2952A, 0 0 1em #D2952A, 0 0 0.2em, #D2952A;
+    text-shadow: #D2952A 3px 0 10px;
   }
 
   .indirectlight {

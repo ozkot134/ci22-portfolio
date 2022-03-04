@@ -2,9 +2,10 @@ body {
   margin: 0px;
   height: 100%;
   position: absolute;
+  background-color: rgb(249, 240, 225);
 }
 
-.image1
+.shadow
 {
 width: 197px;
 height: 200px;
@@ -13,7 +14,7 @@ top: 50px;
 left: 30px;
 }
 
-.image2
+.gold
 {
 width: 197px;
 height:200px;
@@ -22,12 +23,11 @@ top: 400px;
 left: 200px;
 }
 
-.image3
+.eaves
 {
 width: 197px;
 height: 200px;
 position: relative;
 top: 200px;
 left: 550px;
-
 }
