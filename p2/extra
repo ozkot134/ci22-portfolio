@@ -1,0 +1,165 @@
+<div class="container">
+  <div class="border-top-left">
+    <img
+      src="border-30.png"
+      width="90px"
+      height="160px"
+    >
+  </div>
+  <div class="border-top-right">
+    <img
+      src="border-31.png"
+      width="90px"
+      height="160px"
+    >
+  </div>
+  <div class="border-bottom-left">
+    <img
+      src="border-32.png"
+      width="90px"
+      height="160px"
+    >
+  </div>
+  <div class="border-bottom-right">
+    <img
+      src="border-33.png"
+      width="90px"
+      height="160px"
+    >
+  </div>
+</div>
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 400px;
+  }
+  
+  .border-top-left {
+    position: sticky;
+    top: 0;
+  }
+  
+  .sborder-top-right {
+    position: sticky;
+    top: 4rem;
+  }
+  
+  .border-bottom-left {
+    position: sticky;
+    bottom: 1rem;
+    align-self: flex-end;
+  }
+
+  .border-bottom-right {
+    position: sticky;
+    bottom: 1rem;
+    align-self: flex-end;
+  }
+
+
+
+
+
+<img src="project 2 part 2-17.png" class="title">
+<img src="border-30.png" class="border-top-left">
+<img src="border-31.png" class="border-top-right">
+<img src="border-32.png" class="border-bottom-left">
+<img src="border-33.png" class="border-bottom-right">
+
+
+
+
+.border-top-left
+{
+position: sticky;
+top: 0px;
+left: 0px;
+width: 90px;
+height: 160px;
+}
+
+.border-top-right
+{
+position: sticky;
+top: 0px;
+left: 800px;
+width: 90px;
+height: 160px;
+}
+
+.border-bottom-left
+{
+position: sticky;
+top: 800px;
+left: 0px;
+width: 90px;
+height: 160px;
+}
+
+.border-bottom-right
+{
+position: sticky;
+top: 800px;
+left: 800px;
+width: 90px;
+height: 160px;
+}
+
+
+
+
+<style>
+          
+        /* Media Query for Mobile Devices */
+        @media (max-width: 480px) {
+            body {
+                background-color: red;
+            }
+        }
+
+
+
+        /* Media Query for Laptops and Desktops */
+        @media (min-width: 1025px) and (max-width: 1280px){
+            body {
+                background-color: green;
+            }
+        }
+ </style>
+
+
+
+
+
+ <div class="border">
+  <div class="border-top-left">
+    <img
+      src="border-30.png"
+      width="90px"
+      height="160px"
+    >
+  </div>
+  <div class="border-top-right">
+    <img
+      src="border-31.png"
+      width="90px"
+      height="160px"
+    >
+  </div>
+  <div class="border-bottom-left">
+    <img
+      src="border-32.png"
+      width="90px"
+      height="160px"
+    >
+  </div>
+  <div class="border-bottom-right">
+    <img
+      src="border-33.png"
+      width="90px"
+      height="160px"
+    >
+  </div>
+</div>
