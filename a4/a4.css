@@ -65,9 +65,17 @@ body {
     right:0px;
     top:0px;
     width:10vh;
+    animation-name: example8;
+    animation-duration: 5s;
   }
 
-
+@keyframes example8 {
+0%   {right:0px; top:0px;}
+25%  {right:30px; top:0px;}
+50%  {right:30px; top:30px;}
+75%  {right:0px; top:30px;}
+100% {right:0px; top:0px;}
+}
 
 
 
@@ -83,7 +91,16 @@ body {
     left: 860px;
     background-color: lightblue;
     border: 7px solid pink ;
+      animation-name: example1;
+      animation-duration: 5s;
+    }
 
+@keyframes example1 {
+  0%   {left:860px; top:410px;}
+  25%  {left:870px; top:410px;}
+  50%  {left:870px; top:420px;}
+  75%  {left:860px; top:420px;}
+  100% {left:860px; top:410px;}
 }
 
 
@@ -94,7 +111,17 @@ body {
     left: 720px;
     background-color: green;
     border: 7px solid red ;
+    animation-name: example2;
+    animation-duration: 5s;
+  }
 
+
+@keyframes example2 {
+  0%   {left:720px; top:500px;}
+  25%  {left:730px; top:500px;}
+  50%  {left:730px; top:510px;}
+  75%  {left:720px; top:510px;}
+  100% {left:720px; top:500px;}
 }
 
   #circle-3 {
@@ -103,7 +130,16 @@ body {
     left: 500px;
     background-color: orange;
     border: 7px solid violet;
+    animation-name: example3;
+    animation-duration: 5s;
+  }
 
+  @keyframes example3 {
+    0%   {left:500px; top:300px;}
+    25%  {left:510px; top:300px;}
+    50%  {left:510px; top:310px;}
+    75%  {left:500px; top:310px;}
+    100% {left:500px; top:300px;}
   }
 
   #circle-4 {
@@ -112,7 +148,16 @@ body {
     left: 400px;
     background-color: black;
     border: 7px solid purple ;
+    animation-name: example4;
+    animation-duration: 5s;
+  }
 
+  @keyframes example4 {
+    0%   {left:400px; top:450px;}
+    25%  {left:410px; top:450px;}
+    50%  {left:410px; top:460px;}
+    75%  {left:400px; top:460px;}
+    100% {left:400px; top:450px;}
   }
 
   #circle-5 {
@@ -121,7 +166,16 @@ body {
     left: 650px;
     background-color: yellow;
     border: 7px solid yellowgreen ;
+    animation-name: example5;
+    animation-duration: 5s;
+  }
 
+  @keyframes example5 {
+    0%   {left:650px; top:400px;}
+    25%  {left:660px; top:400px;}
+    50%  {left:660px; top:410px;}
+    75%  {left:650px; top:410px;}
+    100% {left:650px; top:400px;}
   }
 
   #circle-6 {
@@ -130,7 +184,16 @@ body {
     left: 550px;
     background-color: rgb(255, 0, 212);
     border: 7px solid red ;
- 
+    animation-name: example6;
+    animation-duration: 5s;
+  }
+
+  @keyframes example6 {
+    0%   {left:550px; top:470px;}
+    25%  {left:560px; top:470px;}
+    50%  {left:560px; top:480px;}
+    75%  {left:550px; top:480px;}
+    100% {left:550px; top:470px;}
   }
 
   #circle-7 {
@@ -139,7 +202,16 @@ body {
     left: 750px;
     background-color: rgb(0, 255, 234);
     border: 7px solid rgb(94, 255, 0) ;
+    animation-name: example7;
+    animation-duration: 5s;
+  }
 
+  @keyframes example7 {
+    0%   {left:750px; top:300px;}
+    25%  {left:760px; top:300px;}
+    50%  {left:760px; top:310px;}
+    75%  {left:750px; top:310px;}
+    100% {left:750px; top:300px;}
   }
   
   

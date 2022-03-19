@@ -196,15 +196,15 @@ text-decoration: none;
 
   p{
 
-    margin: 85px;
+    margin: 100px;
     position: absolute;
     top: 200px;
-    left: 0px;
+    left: -25px;
     font-family: 'Inconsolata', monospace;
-    font-size: 11px;
+    font-size: 15px;
     line-height: 12pt;
     text-align: justify; 
-    letter-spacing: 0px;
+    letter-spacing: 1px;
     }
   
   #title {
@@ -212,7 +212,7 @@ text-decoration: none;
     height: 220px;
     position: relative;
     top: 70px;
-    left: 195px;
+    left: 215px;
     }
 
  .background-1
@@ -221,7 +221,7 @@ text-decoration: none;
   height: 450px;
 position: absolute;
 top: 0px;
-left: 50px;
+left: 70px;
 
 }
 
@@ -231,7 +231,7 @@ left: 50px;
   height: 450px;
 position: absolute;
 top: 450px;
-left: 50px;
+left: 70px;
 }
 
 .background-3
@@ -240,7 +240,7 @@ left: 50px;
   height: 450px;
 position: absolute;
 top: 910px;
-left: 50px;
+left: 70px;
 }
 
 .background-4
@@ -249,7 +249,7 @@ left: 50px;
   height: 450px;
 position: absolute;
 top: 1370px;
-left: 50px;
+left: 70px;
 }
 
 .background-5
@@ -258,7 +258,7 @@ left: 50px;
   height: 450px;
 position: absolute;
 top: 1830px;
-left: 50px;
+left: 70px;
 }
 
 .background-6
@@ -267,7 +267,7 @@ left: 50px;
   height: 450px;
 position: absolute;
 top: 2290px;
-left: 50px;
+left: 70px;
 }
 
 .background-7
@@ -276,7 +276,7 @@ left: 50px;
   height: 450px;
 position: absolute;
 top: 2750px;
-left: 50px;
+left: 70px;
 }
 
 .background-8
@@ -285,7 +285,7 @@ left: 50px;
   height: 450px;
 position: absolute;
 top: 3210px;
-left: 50px;
+left: 70px;
 }
 
 .border {
@@ -346,10 +346,10 @@ left: 50px;
       top: 340px;
       left: 12px;
       font-family: 'Inconsolata', monospace;
-      font-size: 13px;
+      font-size: 15px;
       line-height: 13pt;
       text-align: justify; 
-      letter-spacing: 1px;
+      letter-spacing: 2px;
       }
     
     #title {
@@ -447,10 +447,10 @@ left: 50px;
     top: 300px;
     left: 12px;
     font-family: 'Inconsolata', monospace;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 14pt;
     text-align: justify; 
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     }
   
   #title {
