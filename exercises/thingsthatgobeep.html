@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang=“en”>
+<head>
+    <meta charset=“UTF-8">
+    <meta http-equiv=“X-UA-Compatible” content=“IE=edge”>
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0">
+    <link rel=“stylesheet” href=“thingsthatgobeep.css”>
+    <title>Document</title>
+</head>
+<body>
+    <!-- <a href=“#” class=“myButton”><audio id=“audio” src=“sounds/stress.mp3">Stress</audio></a>
+    <a href=“#” class=“myButton2">Calm</a> -->
+    <!-- <a href=“#” class=“myButton”>Loud</a>
+    <a href=“#” class=“myButton”>Hungry</a> -->
+    <audio id=“myAudio” src=“http://www.sousound.com/music/healing/healing_01.mp3” preload=“auto”>
+    </audio>
+    <a onClick=“togglePlay()“>Click here to hear.</a>
+</body>
+</html>
+<script>var myAudio = document.getElementById(“myAudio”);
+    var isPlaying = false;
+    function togglePlay() {
+      isPlaying ? myAudio.pause() : myAudio.play();
+    };
+    myAudio.onplaying = function() {
+      isPlaying = true;
+    };
+    myAudio.onpause = function() {
+      isPlaying = false;
+    };
+    </script>
