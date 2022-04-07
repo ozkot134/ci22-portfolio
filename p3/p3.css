@@ -1,0 +1,20 @@
+body {
+    background-color: antiquewhite;
+  }
+
+.title
+{
+width:9in;
+height:1.5in;
+position: relative;
+left: 150px;
+top: 0px;
+}
+.map
+{
+width:4in;
+height:11in;
+position: relative;
+left: 400px;
+top: 70px;
+}
