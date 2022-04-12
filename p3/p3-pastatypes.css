@@ -1,0 +1,27 @@
+body {
+    background-color: antiquewhite;
+  }
+
+.title {
+width:9in;
+height:1.5in;
+position: absolute;
+left: 500px;
+top: 30px;
+}
+
+.menu-icon {
+    width:2in; 
+    height:2in;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+select{
+    font-size:24px;
+    margin:14px;
+    position: absolute;
+    left: 50px;
+    top: 250px;
+}

@@ -1,6 +1,10 @@
 body {
-  padding: 10px;
   font-family: 'Calibri';
+  position: relative; 
+  top: 300px;
+  left: 650px;
+
+
 }
 
 body * {

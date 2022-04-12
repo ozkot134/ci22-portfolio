@@ -1,0 +1,28 @@
+body {
+    background-color: antiquewhite;
+  }
+
+.title {
+width:9in;
+height:1.5in;
+position: absolute;
+left: 500px;
+top: 20px;
+}
+
+
+.map {
+width:4in;
+height:11in;
+position: absolute;
+left: 800px;
+top: 200px;
+}
+
+.menu-icon {
+  width:2in; 
+  height:2in;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
