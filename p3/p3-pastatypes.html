@@ -4,11 +4,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" href="p3-pastatypes.css">
+	<script src="p3-pastatypes.js"></script>
 	<title>P3-pastatypes</title>
 </head>
 <body>
-    <img src="title.png" class="title">
     <a href="p3.html"> <img src="menu-09.png" class="menu-icon"> </a>
+	<a href="info-page.html"> <img src="tomato-10.png" class="tomato"> </a>
 
     <select>
 		<option value="Spagetti">Spagetti</option>
@@ -16,6 +17,32 @@
 		<option value="Fettucine">Fettucine</option>
         <option value="All">All</option>
 	</select>
+
+	<div class="wrapper">
+		<span id="channel-title"></span>
+  
+		<ul id="contents">
+  
+		</ul>
+	  </div>
+  
+	  <template id="text-block">
+		<li class="block block--text">
+		  <p class="block__text"></p>
+		</li>
+	  </template>
+  
+	  <template id="image-block">
+		<li class="block block--image">
+		  <img class="block__image" src="">
+		</li>
+	  </template>
+  
+	  <template id="link-block">
+		<li class="block block--link">
+		  <a class="block__link" href="#"></a>
+		</li>
+	  </template>
 
 </body>
 </html>

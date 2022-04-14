@@ -1,0 +1,41 @@
+body{
+background-color: black;
+}
+
+h1{
+position: absolute;
+left: 630px;
+top: 50px;
+color: hsl(346 71.4% 60.2%);
+font-family: 'Abril Fatface', cursive;
+font-size: 50px;
+}
+
+h2{
+    position: absolute;
+    left: 630px;
+    top: 270px;
+    color: hsl(0 34.5% 45.5%);
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    }
+
+
+h3{
+        position: absolute;
+        left: 630px;
+        top: 500px;
+        color: hsl(346 96.2% 31.2%);
+        font-family: 'Abril Fatface', cursive;
+        font-size: 20px;
+        }
+
+
+h4{
+    position: absolute;
+    left: 630px;
+    top: 550px;
+    color: hsl(346 95.6% 17.6%);
+    font-family: 'Abril Fatface', cursive;
+    font-size: 16px;
+    }

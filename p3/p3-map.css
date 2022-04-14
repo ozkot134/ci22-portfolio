@@ -2,27 +2,26 @@ body {
     background-color: antiquewhite;
   }
 
-.title {
-width:9in;
-height:1.5in;
-position: absolute;
-left: 500px;
-top: 20px;
-}
-
-
 .map {
-width:4in;
-height:11in;
+width: 354px;
+height: 1026px;
 position: absolute;
-left: 800px;
-top: 200px;
+left: 590px;
+top: 50px;
 }
 
 .menu-icon {
-  width:2in; 
-  height:2in;
+  width:1.7in; 
+  height:1.7in;
   position: absolute;
-  left: 0px;
+  left: 20px;
+  top: -35px;
+}
+
+.tomato {
+  width: 102px; 
+  height: 102px;
+  position: absolute;
+  right: 10px;
   top: 0px;
 }
