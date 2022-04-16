@@ -1,10 +1,10 @@
 $(function(){
 
- $("select").on("change",function(){
-
-  $("img").hide();
-  $("."+this.value).show();
-
- });
-
-});
+    $("select").on("change",function(){
+   
+     $("img").hide();
+     $("."+this.value).show();
+   
+    });
+   
+   });

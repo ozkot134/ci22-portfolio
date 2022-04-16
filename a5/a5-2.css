@@ -1,13 +1,18 @@
 body {
   background: url(space.jpg);
   padding-top: 5em;
-  display: flex;
   height: 100vh;
   justify-content: center;
 }
 
 .typewriter h1 {
-  color: #fff;
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 80%;
+  color: rgb(17, 8, 8);
   font-family: 'VT323', monospace;
   overflow: hidden;
   border-right: .15em solid rgb(255, 255, 255);
@@ -28,6 +33,8 @@ body {
   from, to { border-color: transparent }
   50% { border-color: rgb(255, 255, 255) }
 }
+
+
 
 
 

@@ -1,0 +1,82 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  font-family: 'VT323', monospace;
+  font-size:30px; 
+  padding: 18%;
+  letter-spacing: 6px; 
+  line-height: 40px;
+  font-weight: bold;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#typedtext{
+  position: absolute;
+  left: 400px;
+  top: 100px;
+  background-color: aqua;
+}
+
+.planet1 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 0px;
+  top: 279px;
+}
+
+.purple {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+
+.earth {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 700px;
+  top: 700px;
+}
+
+.image1 {
+  background-image: url('space.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+
+.image2 {
+  background-image: url('windows.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+position: absolute;
+  top: 1000px;
+  left: 0px;
+}
+
+.image3 {
+  background-image: url('end.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+position: absolute;
+  top: 2000px;
+  left: 0px;
+}
