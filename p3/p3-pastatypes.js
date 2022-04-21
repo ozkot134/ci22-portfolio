@@ -8,7 +8,11 @@ window.addEventListener('DOMContentLoaded', () => {
         renderTitle(data);
         renderBlocks(data);
       });
-    
+      
+      let dropdownMenu = document.getElementById("drop-down-menu");
+      if(dropdownMenu.value == "Penne") {
+        console.log("hey");
+      } 
   });
 
   const renderTitle = (data) => {
@@ -33,8 +37,3 @@ window.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('contents').appendChild(clone);
   };  
-
-  let dropdownMenu = document.getElementById("drop-down-menu");
-    if(dropdownMenu.value == 'Penne') {
-      console.log("hey");
-    }
