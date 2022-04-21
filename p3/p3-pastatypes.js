@@ -13,7 +13,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
   const renderTitle = (data) => {
     let title = data['title'];
-    document.getElementById('channel-title').innerText=title;
   };
 
   const renderBlocks=(data)=> {
@@ -33,5 +32,9 @@ window.addEventListener('DOMContentLoaded', () => {
     clone.querySelector('img').src = imageUrl;
 
     document.getElementById('contents').appendChild(clone);
-
   };  
+
+  let dropdownMenu = document.getElementById("drop-down-menu");
+    if(dropdownMenu.value == 'Penne') {
+      console.log("hey");
+    }

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="thingsthatgobeep.css">
+   
+    <title>Things That Go Beep</title>
+</head>
+<body>
+
+    <audio id="myAudio" src="song.mp3" preload="auto"></audio>
+    <a onClick="togglePlay()" id=myButton>Horse</a>
+
+    <audio id="myAudio2" src="seaside.mp3" preload="auto"></audio>
+    <a onClick="togglePlay2()" id=myButton2>Seaside</a>   
+    
+    <audio id="myAudio3" src="stress.mp3"></audio>
+    <a onClick="togglePlay3()" id=myButton3>Stress</a>
+
+    <audio id="myAudio4" src="calm.mp3"></audio>
+    <a onClick="togglePlay4()" id=myButton4>Calm</a>
+
+    <audio id="myAudio5" src="hungry.wav"></audio>
+    <a onClick="togglePlay5()" id=myButton5>hungry</a>
+
+    <audio id="myAudio6" src="toaster.wav"></audio>
+    <a onClick="togglePlay6()" id=myButton6>Toaster</a>
+    
+</body>
+</html>
+
+<script>
+    var myAudio = document.getElementById("myAudio");
+    var isPlaying = false;
+    
+    function togglePlay() {
+      isPlaying ? myAudio.pause() : myAudio.play();
+    };
+    
+    myAudio.onplaying = function() {
+      isPlaying = true;
+    };
+    myAudio.onpause = function() {
+      isPlaying = false;
+    };
+    
+    </script>
+    <script>    
+    var myAudio2 = document.getElementById("myAudio2");
+    var isPlaying = false;
+    
+    function togglePlay2() {
+      isPlaying ? myAudio2.pause() : myAudio2.play();
+    };
+    
+    myAudio2.onplaying = function() {
+      isPlaying = true;
+    };
+    myAudio2.onpause = function() {
+      isPlaying = false;
+    };
+    
+    </script>
+
+    <script>    
+        var myAudio3 = document.getElementById("myAudio3");
+        var isPlaying = false;
+        
+        function togglePlay3() {
+          isPlaying ? myAudio3.pause() : myAudio3.play();
+        };
+        
+        myAudio3.onplaying = function() {
+          isPlaying = true;
+        };
+        myAudio3.onpause = function() {
+          isPlaying = false;
+        };
+        
+        </script>
+
+<script>    
+    var myAudio4 = document.getElementById("myAudio4");
+    var isPlaying = false;
+    
+    function togglePlay4() {
+      isPlaying ? myAudio4.pause() : myAudio4.play();
+    };
+    
+    myAudio4.onplaying = function() {
+      isPlaying = true;
+    };
+    myAudio4.onpause = function() {
+      isPlaying = false;
+    };
+    
+    </script>
+
+<script>    
+    var myAudio5 = document.getElementById("myAudio5");
+    var isPlaying = false;
+    
+    function togglePlay5() {
+      isPlaying ? myAudio5.pause() : myAudio5.play();
+    };
+    
+    myAudio5.onplaying = function() {
+      isPlaying = true;
+    };
+    myAudio5.onpause = function() {
+      isPlaying = false;
+    };
+    
+    </script>
+
+<script>    
+    var myAudio6 = document.getElementById("myAudio6");
+    var isPlaying = false;
+    
+    function togglePlay6() {
+      isPlaying ? myAudio6.pause() : myAudio6.play();
+    };
+    
+    myAudio6.onplaying = function() {
+      isPlaying = true;
+    };
+    myAudio6.onpause = function() {
+      isPlaying = false;
+    };
+    
+    </script>

@@ -2,7 +2,7 @@ body {
     background-color: antiquewhite;
   }
 
-.map {
+.blankmap {
 width: 354px;
 height: 1026px;
 position: absolute;
@@ -11,17 +11,623 @@ top: 50px;
 }
 
 .menu-icon {
-  width:1.7in; 
-  height:1.7in;
+  width:163px; 
+  height:163px;
   position: absolute;
   left: 20px;
   top: -35px;
 }
 
-.tomato {
-  width: 102px; 
+.hand {
+  width: 125px; 
   height: 102px;
   position: absolute;
-  right: 10px;
-  top: 0px;
+  right: -20px;
+  top: 10px;
 }
+
+.inwood{
+font-family: 'Titillium Web', sans-serif;
+font-size: 8px;
+position: absolute;
+left: 630px;
+top: 67px;
+color: antiquewhite;
+}
+
+.inwood:hover{
+color: #E5C676;
+  }
+
+.fort-george{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 8px;
+  position: absolute;
+  left: 627px;
+  top: 102px;
+  color: antiquewhite;
+  }
+
+  .fort-george:hover{
+    color: #E5C676;
+      }
+
+.washington-heights{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 6px;
+  position: absolute;
+  left: 627px;
+  top: 163px;
+  color: antiquewhite;
+  text-align: center;
+  }
+
+  .washington-heights:hover{
+    color: #E5C676;
+      }
+
+.hamilton-heights{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 5px;
+  position: absolute;
+  left: 655px;
+  top: 209px;
+  color: antiquewhite;
+  text-align: center;
+  }
+
+  .hamilton-heights:hover{
+    color: #E5C676;
+      }
+
+.harlem{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 5px;
+    position: absolute;
+    left: 655px;
+    top: 209px;
+    color: antiquewhite;
+}
+
+.harlem:hover{
+  color: #E5C676;
+    }
+
+.morning-heights{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 6px;
+  position: absolute;
+  left: 625px;
+  top: 350px;
+  color: antiquewhite;
+  text-align: center;
+  }
+
+  .morning-heights:hover{
+    color: #E5C676;
+      }
+
+.east-harlem{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 11px;
+  position: absolute;
+  left: 775px;
+  top: 350px;
+  color: antiquewhite;
+  text-align: center;
+  }
+  .east-harlem:hover{
+    color: #E5C676;
+      }
+
+.upper-west-side{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 11px;
+  position: absolute;
+  left: 630px;
+  top: 440px;
+  color: antiquewhite;
+  text-align: center;
+  }
+
+
+  .upper-west-side:hover{
+    color: #E5C676;
+      }
+
+.central-park{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 12px;
+  position: absolute;
+  left: 630px;
+  top: 440px;
+  color: antiquewhite;
+}
+
+.central-park{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 12px;
+  position: absolute;
+  left: 630px;
+  top: 440px;
+  color: antiquewhite;
+}
+
+  .central-park:hover{
+    color: #E5C676;
+      }
+
+.yorkville{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 9px;
+  position: absolute;
+  left: 805px;
+  top: 477px;
+  color: antiquewhite;
+  }
+
+  .yorkville:hover{
+    color: #E5C676;
+      }
+
+.upper-east-side{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 6px;
+  position: absolute;
+  left: 780px;
+  top: 530px;
+  color: antiquewhite;
+  text-align: center;
+  }
+
+  .upper-east-side:hover{
+    color: #E5C676;
+      }
+
+.lenox-hill{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 8px;
+  position: absolute;
+  left: 780px;
+  top: 575px;
+  color: antiquewhite;
+  text-align: center;
+  }
+
+  .lenox-hill:hover{
+    color: #E5C676;
+      }
+
+.lincoln-square{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 6px;
+  position: absolute;
+  left: 640px;
+  top: 575px;
+  color: antiquewhite;
+  text-align: center;
+  }
+
+  .lincoln-square:hover{
+    color: #E5C676;
+      }
+  
+.clinton{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 6px;
+  position: absolute;
+  left: 635px;
+  top: 645px;
+  color: antiquewhite;
+  }
+
+  .clinton:hover{
+    color: #E5C676;
+      }
+  
+.midtown{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 9px;
+  position: absolute;
+  left: 740px;
+  top: 650px;
+  color: antiquewhite;
+  writing-mode: vertical-rl;
+text-orientation: mixed;
+  }
+  
+  .midtown:hover{
+    color: #E5C676;
+      }
+
+.turtle-bay{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 8px;
+  position: absolute;
+  left: 810px;
+  top: 625px;
+  color: antiquewhite;
+  text-align: center;
+  }
+
+  .turtle-bay:hover{
+    color: #E5C676;
+      }
+
+.hells-kitchen{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 6px;
+  position: absolute;
+  left: 630px;
+  top: 695px;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.hells-kitchen:hover{
+  color: #E5C676;
+    }
+
+.garment-district{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 5px;
+  position: absolute;
+  left: 687px;
+  top: 707px;
+  color: antiquewhite;
+  text-align: center;
+  }
+
+  .garment-district:hover{
+    color: #E5C676;
+      }
+
+.theater-district{
+font-family: 'Titillium Web', sans-serif;
+font-size: 5px;
+position: absolute;
+left: 700px;
+top: 660px;
+color: antiquewhite;
+writing-mode: vertical-rl;
+text-orientation: mixed;
+}
+
+.theater-district:hover{
+  color: #E5C676;
+    }
+
+.murray-hill{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 5px;
+  position: absolute;
+  left: 800px;
+  top: 695px;
+  color: antiquewhite;
+  text-align: center;
+  }
+
+  .murray-hill:hover{
+    color: #E5C676;
+      }
+
+.tudor{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 4px;
+  position: absolute;
+  left: 800px;
+  top: 695px;
+  color: antiquewhite;
+  writing-mode: vertical-rl;
+text-orientation: mixed;
+  }
+  
+  .tudor:hover{
+    color: #E5C676;
+      }
+
+.chelsea{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 11px;
+  position: absolute;
+  left: 640px;
+  top: 750px;
+  color: antiquewhite;
+  }
+  
+  .chelsea:hover{
+    color: #E5C676;
+      }
+
+.midtown-south{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 7px;
+  position: absolute;
+  left: 735px;
+  top: 755px;
+  color: antiquewhite;
+  text-align: center;
+  }
+  
+  .midtown-south:hover{
+    color: #E5C676;
+      }
+
+.kips-bay{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 6px;
+  position: absolute;
+  left: 802px;
+  top: 740px;
+  color: antiquewhite;
+  text-align: center;
+  }
+
+  .kips-bay:hover{
+    color: #E5C676;
+      }
+
+.medical-city{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 12px;
+  position: absolute;
+  left: 802px;
+  top: 740px;
+  color: antiquewhite;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  }
+
+
+  .medical-city:hover{
+    color: #E5C676;
+      }
+
+.gramercy{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 4px;
+  position: absolute;
+  left: 798px;
+  top: 790px;
+  color: antiquewhite;
+  }
+
+  .gramercy:hover{
+    color: #E5C676;
+      }
+
+.stuyvesant{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 4px;
+  position: absolute;
+  left: 840px;
+  top: 795px;
+  color: antiquewhite;
+  }
+
+  .stuyvesant:hover{
+    color: #E5C676;
+      }
+  
+.west-village{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 8px;
+  position: absolute;
+  left: 665px;
+  top: 820px;
+  color: antiquewhite;
+  text-align: center;
+  }
+  
+  .west-village:hover{
+    color: #E5C676;
+      }
+
+.greenwich-village{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 6px;
+  position: absolute;
+  left: 720px;
+  top: 820px;
+  color: antiquewhite;
+  text-align: center;
+  }
+
+  .greenwich-village:hover{
+    color: #E5C676;
+      }
+    
+.noho{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 5px;
+  position: absolute;
+  left: 780px;
+  top: 850px;
+  color: antiquewhite;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  }
+
+  .noho:hover{
+    color: #E5C676;
+      }
+    
+.east-village{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 9px;
+  position: absolute;
+  left: 805px;
+  top: 820px;
+  color: antiquewhite;
+  text-align: center;
+  }
+
+  .east-village:hover{
+    color: #E5C676;
+      }
+    
+.abc-city{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 9px;
+  position: absolute;
+  left: 870px;
+  top: 825px;
+  color: antiquewhite;
+  text-align: center;
+}
+
+  .abc-city:hover{
+    color: #E5C676;
+      }
+
+.soho{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 12px;
+  position: absolute;
+  left: 700px;
+  top: 875px;
+  color: antiquewhite;
+  }
+
+  .soho:hover{
+    color: #E5C676;
+      }
+    
+.little-italy{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 3px;
+  position: absolute;
+  left: 780px;
+  top: 895px;
+  color: antiquewhite;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  }
+
+  .little-italy:hover{
+    color: #E5C676;
+      }
+    
+.bowery{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 7px;
+  position: absolute;
+  left: 800px;
+  top: 890px;
+  color: antiquewhite;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  }
+
+  .bowery:hover{
+    color: #E5C676;
+      }
+  
+.lower-east-side{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 12px;
+  position: absolute;
+  left: 850px;
+  top: 890px;
+  color: antiquewhite;
+  }
+
+.lower-east-side:hover{
+    color: #E5C676;
+      }
+    
+.tribeca{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 8px;
+  position: absolute;
+  left: 705px;
+  top: 930px;
+  color: antiquewhite;
+  }
+
+  .tribeca:hover{
+    color: #E5C676;
+      }
+    
+.china-town{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 5px;
+  position: absolute;
+  left: 770px;
+  top: 925px;
+  color: antiquewhite;
+  text-align: center;
+  }
+
+  .china-town:hover{
+    color: #E5C676;
+      }
+    
+.two-bridges{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 4px;
+  position: absolute;
+  left: 810px;
+  top: 965px;
+  color: antiquewhite;
+  text-align: center;
+  }
+
+  .two-bridges:hover{
+    color: #E5C676;
+      }
+    
+.civic-center{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 4px;
+  position: absolute;
+  left: 770px;
+  top: 965px;
+  color: antiquewhite;
+  text-align: center;
+  }
+
+  .civic-center:hover{
+    color: #E5C676;
+      }
+      
+.white-hall{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 7px;
+  position: absolute;
+  left: 730px;
+  top: 990px;
+  color: antiquewhite;
+  text-align: center;
+  }
+
+  .white-hall:hover{
+    color: #E5C676;
+      }
+      
+.wall-street{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 6px;
+  position: absolute;
+  left: 780px;
+  top: 995px;
+  color: antiquewhite;
+  }
+
+  .wall-street:hover{
+    color: #E5C676;
+      }
+      
+.southerntip{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 3px;
+  position: absolute;
+  left: 755px;
+  top: 1045px;
+  color: antiquewhite;
+  text-align: center;
+  }
+
+  .southerntip:hover{
+    color: #E5C676;
+      }

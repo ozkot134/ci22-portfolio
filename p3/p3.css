@@ -6,9 +6,19 @@ body {
 width:9in;
 height:1.5in;
 position: absolute;
-left: 500px;
+left: 490px;
 top: 30px;
 }
+
+
+.music {
+  width:120px;
+height:120px;
+  position: absolute;
+  left: 13px;
+  top: 10px;
+  }
+
 
 h1{
   position: absolute;
@@ -16,6 +26,7 @@ h1{
   top: 750px;
   font-family: 'Titillium Web', sans-serif;
   font-size: 27px;
+  color: #871B1B;
 }
 
 h2{
@@ -24,20 +35,21 @@ h2{
   top: 750px;
   font-family: 'Titillium Web', sans-serif;
   font-size: 27px;
+  color: #E5C676;
 }
 
 .pasta-icon {
-width:5in;
-height:5in;
+width:624px;
+height:480px;
 position: absolute;
-left: 350px;
+left: 280px;
 top: 250px;
 }
 
 .city-icon {
-  width:5in;
-  height:5in;
+  width:624px;
+  height:480px;
   position: absolute;
-  left: 1050px;
+  left: 970px;
   top: 250px;
   }

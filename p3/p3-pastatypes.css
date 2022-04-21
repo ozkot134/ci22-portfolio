@@ -2,7 +2,7 @@ body {
  background-color: antiquewhite;
  min-height: 100vh;
  width: 100%;
- font-family: Helvetica, sans-serif;
+ font-family: 'Titillium Web', sans-serif;
 }
 
 .wrapper {
@@ -24,6 +24,7 @@ h1 {
   align-items: start;
   justify-items: start;
   padding: 0;
+  margin-top: 140px;
 }
 
 img {
@@ -37,28 +38,28 @@ img {
 }
 
 
+select{
+  font-size:30px;
+  margin:14px;
+  position: absolute;
+  left: 650px;
+  top: 50px;
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #871B1B ;
+}
 
 .menu-icon {
-  width:1.7in; 
-  height:1.7in;
+  width:163px; 
+  height:163px;
   position: absolute;
   left: 20px;
   top: -35px;
 }
 
-select{
-  font-size:24px;
-  margin:14px;
-  position: absolute;
-  left: 650px;
-  top: 50px;
-  background-color: #871B1B ;
-}
-
-.tomato {
-  width: 102px; 
+.hand {
+  width: 125px; 
   height: 102px;
   position: absolute;
-  right: 10px;
-  top: 0px;
+  right: -20px;
+  top: 10px;
 }
