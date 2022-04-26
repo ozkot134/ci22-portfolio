@@ -26,6 +26,10 @@ top: 50px;
   top: 10px;
 }
 
+.noDecoration, a:link, a:visited {
+  text-decoration: none;
+}
+
 .inwood{
 font-family: 'Titillium Web', sans-serif;
 font-size: 8px;
@@ -34,6 +38,7 @@ left: 630px;
 top: 67px;
 color: antiquewhite;
 }
+
 
 .inwood:hover{
 color: #E5C676;
@@ -46,10 +51,12 @@ color: #E5C676;
   left: 627px;
   top: 102px;
   color: antiquewhite;
+  text-decoration: none;
   }
 
   .fort-george:hover{
     color: #E5C676;
+    text-decoration: none;
       }
 
 .washington-heights{
@@ -81,12 +88,12 @@ color: #E5C676;
       }
 
 .harlem{
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 5px;
-    position: absolute;
-    left: 655px;
-    top: 209px;
-    color: antiquewhite;
+  font-family: 'Titillium Web', sans-serif; 
+  font-size: 12px; 
+  position: absolute; 
+  left: 660px; 
+  top: 270px; 
+  color: antiquewhite;
 }
 
 .harlem:hover{
@@ -97,7 +104,7 @@ color: #E5C676;
   font-family: 'Titillium Web', sans-serif;
   font-size: 6px;
   position: absolute;
-  left: 625px;
+  left: 640px;
   top: 350px;
   color: antiquewhite;
   text-align: center;
@@ -136,20 +143,22 @@ color: #E5C676;
       }
 
 .central-park{
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 12px;
-  position: absolute;
-  left: 630px;
-  top: 440px;
-  color: antiquewhite;
+  font-family: 'Titillium Web', sans-serif; 
+  font-size: 12px; 
+  position: absolute; 
+  left: 705px; 
+  top: 450px; 
+  color: antiquewhite; 
+  writing-mode: vertical-rl;
+	text-orientation: mixed;
 }
 
 .central-park{
   font-family: 'Titillium Web', sans-serif;
   font-size: 12px;
   position: absolute;
-  left: 630px;
-  top: 440px;
+  left: 705px;
+  top: 445px;
   color: antiquewhite;
 }
 
@@ -312,14 +321,15 @@ text-orientation: mixed;
       }
 
 .tudor{
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 4px;
-  position: absolute;
-  left: 800px;
-  top: 695px;
-  color: antiquewhite;
-  writing-mode: vertical-rl;
-text-orientation: mixed;
+  font-family: 'Titillium Web', sans-serif; 
+  font-size: 4px; 
+  position: absolute; 
+  left: 835px; 
+  top: 695px; 
+  color: antiquewhite; 
+  writing-mode: vertical-rl; 
+  text-orientation: mixed;
+	
   }
   
   .tudor:hover{
@@ -368,13 +378,13 @@ text-orientation: mixed;
       }
 
 .medical-city{
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 12px;
-  position: absolute;
-  left: 802px;
-  top: 740px;
-  color: antiquewhite;
-  writing-mode: vertical-rl;
+  font-family: 'Titillium Web', sans-serif; 
+  font-size: 4px; 
+  position: absolute; 
+  left: 835px; 
+  top: 760px; 
+  color: antiquewhite; 
+  writing-mode: vertical-rl; 
   text-orientation: mixed;
   }
 
@@ -524,11 +534,11 @@ text-orientation: mixed;
       }
   
 .lower-east-side{
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 12px;
-  position: absolute;
-  left: 850px;
-  top: 890px;
+  font-size: 10px; 
+  font-family: 'Titillium Web', sans-serif; 
+  position: absolute;  
+  left: 845px;  
+  top: 877px; 
   color: antiquewhite;
   }
 
@@ -618,7 +628,7 @@ text-orientation: mixed;
     color: #E5C676;
       }
       
-.southerntip{
+.southern-tip{
   font-family: 'Titillium Web', sans-serif;
   font-size: 3px;
   position: absolute;
@@ -628,6 +638,6 @@ text-orientation: mixed;
   text-align: center;
   }
 
-  .southerntip:hover{
+  .southern-tip:hover{
     color: #E5C676;
       }
