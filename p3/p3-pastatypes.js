@@ -30,6 +30,8 @@ window.addEventListener('DOMContentLoaded', () => {
   
     clone.querySelector('li').classList.add(block['title'].trim().split(" ")[0]);
     clone.querySelector('li').classList.add("All");
+
+    clone.querySelector('p').innerText = block['description'];
     
   
     document.getElementById('contents').appendChild(clone);

@@ -3,7 +3,6 @@ body {
  min-height: 100vh;
  width: 100%;
  font-family: 'Titillium Web', sans-serif;
- margin
 }
 
 .wrapper {
@@ -30,7 +29,6 @@ h1 {
   margin-right: 50px;
 }
 
-
 img {
   width: 100%;
   height: auto;
@@ -39,6 +37,14 @@ img {
 .block {
   padding: var(--margin);
   width:var(--width), 25%;
+}
+
+.block__image__text {
+ visibility: hidden;
+}
+
+.block:hover .block__image__text {
+  visibility: visible;
 }
 
 
