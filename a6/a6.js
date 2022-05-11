@@ -37,12 +37,12 @@ $(document).mouseup(function (e) {
 
 var img2 = $('.container--2');
 
-var offset = img2.offset();
+var offset2 = img2.offset();
 var mouseDown = false;
 function mouse(evt) {
     if(mouseDown ==true){
-    var center_x = (offset.left) + (img2.width() / 2);
-    var center_y = (offset.top) + (img2.height() / 2);
+    var center_x = (offset2.left) + (img2.width() / 2);
+    var center_y = (offset2.top) + (img2.height() / 2);
     var mouse_x = evt.pageX;
     var mouse_y = evt.pageY;
     var radians = Math.atan2(mouse_x - center_x, mouse_y - center_y);
@@ -67,12 +67,12 @@ $(document).mouseup(function (e) {
 
 var img3 = $('.container--3');
 
-var offset = img3.offset();
+var offset3 = img3.offset();
 var mouseDown = false;
 function mouse(evt) {
     if(mouseDown ==true){
-    var center_x = (offset.left) + (img3.width() / 2);
-    var center_y = (offset.top) + (img3.height() / 2);
+    var center_x = (offset3.left) + (img3.width() / 2);
+    var center_y = (offset3.top) + (img3.height() / 2);
     var mouse_x = evt.pageX;
     var mouse_y = evt.pageY;
     var radians = Math.atan2(mouse_x - center_x, mouse_y - center_y);

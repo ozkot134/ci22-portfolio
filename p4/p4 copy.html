@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="p4.css">
+	<title>Input Copy</title>
+</head>
+<body>
+
+<!-- this is the entire top section -->
+<div class="top-section">
+ 
+    <!-- your textbox field -->
+    <div class="textbox-field">
+        <label class="label" for="enterword">Enter Your Word:</label><br>
+        <input class="enterword" type="text" id="enterword" name="enterword"><br>
+        <input class="submit" type="submit" id="submit-button" value="Submit"></div>
+    
+    <!--your container with all the words-->  
+      <div class="container">
+          <p class="word" id="word1">Hello</p>
+          <p class="word" id="word2">Love</p>
+          <p class="word" id="word3">Coffee</p>
+          <p class="word" id="word4">Laughter</p>
+          <p class="word" id="word5">See ya!</p>
+          <p class="word" id="word6">Happy</p>
+          <p class="word" id="word7">Fuck You</p>
+          <p class="word" id="word8">Yes</p>
+          <p class="word" id="word9">Perfect</p>
+          <p class="word" id="word10">Get well soon</p>
+        </div>
+    </div>
+    
+    <!-- this is the section with the rug and the turkish word -->
+    <div class="center-section">
+      <div class="rug"></div>
+      <p class="word-display"></p>
+    </div>
+
+
+<script>
+
+/* this is the textbox field where you type in a word  */
+var wordEntered = document.getElementById("enterword");
+
+/* this is the word that will be displayed in the center */
+var wordDisplay = document.querySelector(".word-display");
+
+/* this is the rug image container */
+var rugImage = document.querySelector(".rug");
+
+/* this is the submit button */
+var button = document.getElementById("submit-button");
+
+
+/* creating variables for each word. each word has an id */
+var word1 = document.getElementById("word1");
+var word2 = document.getElementById("word2");
+var word3 = document.getElementById("word3");
+var word4 = document.getElementById("word4");
+var word5 = document.getElementById("word5");
+var word6 = document.getElementById("word6");
+var word7 = document.getElementById("word7");
+var word8 = document.getElementById("word8");
+var word9 = document.getElementById("word9");
+var word10 = document.getElementById("word10");
+
+
+/* when you press the submit button, run the displayWord function  */
+button.addEventListener("click", displayWord);
+
+
+function displayWord() {
+
+//wordEntered.value is the value of the textbox. the value would be the word that is entered in the textbox
+//word1.innerHTML is the inner HTML of the first word, word2.innerHTML is the inner HTML of the second word, etc...
+
+//the innerHTML is what's inside of the <p> tag. In this example below, the innerHTML of this element with id="word1" is "Hello"
+
+/* <p id="word1">Hello</p> */
+
+//this "if" statement compares the word entered in the textbox with each innerHTML of each word
+
+//if the word entered in the textbox matches the 1st word's innerHTML, then run these lines of code
+  if (wordEntered.value == word1.innerHTML) {
+  	//change the innerHTML of the word displayed in the center
+  	wordDisplay.innerHTML = "Merhaba";
+    //change its color
+  	wordDisplay.style.color = "#39FF14";
+    //change the image of the rug
+    rugImage.style.backgroundImage = "url('1.jpeg')";
+    
+    //if the word entered in the textbox matches the 2nd word's HTML, then run these lines of code
+  }  else if (wordEntered.value == word2.innerHTML) {
+    wordDisplay.innerHTML = "Aşk";
+  	wordDisplay.style.color = "#FF10F0";
+    rugImage.style.backgroundImage = "url('2.jpeg')";
+  }
+  //Then you would keep continuing the if statement for all of the words.
+
+ else if (wordEntered.value == word3.innerHTML) {
+    wordDisplay.innerHTML = "Kahve";
+  	wordDisplay.style.color = "#001eff";
+    rugImage.style.backgroundImage = "url('3.jpeg')";
+  }
+
+  else if (wordEntered.value == word4.innerHTML) {
+    wordDisplay.innerHTML = "Gülmek";
+  	wordDisplay.style.color = "#CCFF00";
+    rugImage.style.backgroundImage = "url('4.jpeg')";
+  }
+
+  else if (wordEntered.value == word5.innerHTML) {
+    wordDisplay.innerHTML = "Görüşürüz";
+  	wordDisplay.style.color = "#FF5F1F";
+    rugImage.style.backgroundImage = "url('5.jpeg')";
+  }
+
+  else if (wordEntered.value == word6.innerHTML) {
+    wordDisplay.innerHTML = "Mutlu";
+  	wordDisplay.style.color = "#B026FF";
+    rugImage.style.backgroundImage = "url('6.jpeg')";
+  }
+
+  else if (wordEntered.value == word7.innerHTML) {
+    wordDisplay.innerHTML = "Siktir Git";
+  	wordDisplay.style.color = "CCFF00";
+    rugImage.style.backgroundImage = "url('7.jpeg')";
+  }
+
+  else if (wordEntered.value == word8.innerHTML) {
+    wordDisplay.innerHTML = "Evet";
+  	wordDisplay.style.color = "001eff";
+    rugImage.style.backgroundImage = "url('8.jpeg')";
+  }
+
+  else if (wordEntered.value == word9.innerHTML) {
+    wordDisplay.innerHTML = "Harika";
+  	wordDisplay.style.color = "FF5F1F";
+    rugImage.style.backgroundImage = "url('9.jpeg')";
+  }
+
+  else if (wordEntered.value == word10.innerHTML) {
+    wordDisplay.innerHTML = "Geçmiş <br> Olsun";
+  	wordDisplay.style.color = "B026FF";
+    rugImage.style.backgroundImage = "url('10.jpeg')";
+  }
+
+
+
+
+
+
+
+
+
+}
+
+    
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,257 @@
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+
+@font-face {
+font-family: 'hidayatullah';
+src: url(hidayatullah_DEMO.ttf);
+font-style: normal;
+color: rgb(0, 255, 21);
+}
+
+.instructions{
+display: flex;
+flex-flow: row;
+}
+
+.top-section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-content:flex-start;
+
+}
+
+
+.textbox-field{
+  margin: 20px;
+  padding: 7px;
+  font-size: 18px;
+  background-color: rgb(155, 1, 1);
+}
+
+
+.label{
+margin: 10px;
+margin-top: 10px;
+color: rgb(9, 255, 0);
+font-family: 'Helvetica', sans-serif;
+}
+
+#enterword{
+  margin: 10px;
+  top: 5px;
+  background-color: rgb(155, 1, 1);
+  font-family: 'Helvetica', sans-serif;
+  color: rgb(9, 255, 0);
+}
+
+.submit{
+  margin: 10px;
+  background-color: rgb(155, 1, 1);
+  font-family: 'Helvetica', sans-serif;
+  color: rgb(9, 255, 0);
+}
+
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-around;
+  justify-items: flex-end;
+  justify-content: flex-end;
+}
+
+.word {
+  font-size: 18px;
+  font-family: 'Helvetica', sans-serif;
+  color: rgb(9, 255, 0);
+  background-color: rgb(155, 1, 1);
+  padding: 7px;
+  align-self: center;
+  margin: 6px;
+  
+}
+
+.choose {
+  font-size: 18px;
+  font-family: 'Helvetica', sans-serif;
+  color: rgb(9, 255, 0);
+  background-color: rgb(155, 1, 1);
+  padding: 7px;
+  align-self: center;
+  
+}
+
+.rug {
+  width: 675px ;
+height: 418px;
+  background-repeat: none;
+  background-size: cover;
+}
+
+
+.center-section {
+  display: flex;
+  flex: 3;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+
+}
+
+.word-display {
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+  margin: 0 auto;
+  font-family: 'hidayatullah';
+src: url(hidayatullah_DEMO.ttf);
+font-style: normal;
+font-size: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query for Mobile Devices */
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 844px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+
+    body {
+      background-image: url("background.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  
+  
+  @font-face {
+  font-family: 'hidayatullah';
+  src: url(hidayatullah_DEMO.ttf);
+  font-style: normal;
+  color: rgb(0, 255, 21);
+  }
+  
+  .instructions{
+  display: flex;
+  flex-flow: row;
+  }
+  
+  .top-section {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-content:flex-start;
+  
+  }
+  
+  
+  .textbox-field{
+    margin: 7px;
+    padding: 3px;
+    font-size: 10px;
+    background-color: rgb(155, 1, 1);
+  }
+  
+  
+  .label{
+  margin: 10px;
+  margin-top: 10px;
+  color: rgb(9, 255, 0);
+  font-family: 'Helvetica', sans-serif;
+  }
+  
+  #enterword{
+    margin: 10px;
+    top: 5px;
+    background-color: rgb(155, 1, 1);
+    font-family: 'Helvetica', sans-serif;
+    color: rgb(9, 255, 0);
+  }
+  
+  .submit{
+    margin: 10px;
+    background-color: rgb(155, 1, 1);
+    font-family: 'Helvetica', sans-serif;
+    color: rgb(9, 255, 0);
+    font-size: 10px;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    justify-items: flex-end;
+    justify-content: flex-end;
+  }
+  
+  .word {
+    font-size: 10px;
+    font-family: 'Helvetica', sans-serif;
+    color: rgb(9, 255, 0);
+    background-color: rgb(155, 1, 1);
+    padding: 3px;
+    align-self: center;
+    margin: 3px;
+    
+  }
+  
+  .choose {
+    font-size: 10px;
+    font-family: 'Helvetica', sans-serif;
+    color: rgb(9, 255, 0);
+    background-color: rgb(155, 1, 1);
+    padding: 3px;
+    align-self: center;
+    
+  }
+  
+  .rug {
+    width: 506px ;
+  height: 313px;
+    background-repeat: none;
+    background-size: cover;
+  }
+  
+  
+  .center-section {
+    display: flex;
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  
+  }
+  
+  .word-display {
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    margin: 0 auto;
+    font-family: 'hidayatullah';
+  src: url(hidayatullah_DEMO.ttf);
+  font-style: normal;
+  font-size: 80px;
+  }
+
+}
