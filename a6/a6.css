@@ -6,10 +6,11 @@ body {
     background: radial-gradient(#000000, #47003c, #000000, #000000, #000000);
   }
 
-  .container, .container--2, .container--3 {
+  .container, .container--2, .container--3, .container--4, .container--5, .container--6, .container--7, .container--8, .container--9 {
     width:100%;
     height: 100%;
     position: absolute;
+    cursor: move;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,6 +61,103 @@ body {
     inset 0px 0px 20px rgb(1, 255, 1),
     0px 0px 60px rgb(31, 255, 1),
     inset 0px 0px 60px rgb(22, 255, 1);
+    animation: breathing 3s ease-out infinite;
+  }
+
+  .container--4 .frame {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 170px;
+    top: 500px;
+    border-radius: 50px;
+    border: 5px rgb(255, 94, 0) solid;
+    box-shadow: 
+    0px 0px 20px rgb(255, 94, 0),
+    inset 0px 0px 20px rgb(255, 94, 0),
+    0px 0px 60px rgb(255, 94, 0),
+    inset 0px 0px 60px rgb(255, 94, 0);
+    animation: breathing 3s ease-out infinite;
+  }
+
+  .container--5 .frame {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 20px;
+    top: 200px;
+    border-radius: 50px;
+    border: 5px rgb(251, 255, 0) solid;
+    box-shadow: 
+    0px 0px 20px rgb(251, 255, 0),
+    inset 0px 0px 20px rgb(251, 255, 0),
+    0px 0px 60px rgb(251, 255, 0),
+    inset 0px 0px 60px rgb(251, 255, 0);
+    animation: breathing 3s ease-out infinite;
+  }
+
+
+  .container--7 .frame {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 250px;
+    top: 500px;
+    border-radius: 50px;
+    border: 5px rgb(255, 0, 0) solid;
+    box-shadow: 
+    0px 0px 20px rgb(255, 0, 0),
+    inset 0px 0px 20px rgb(255, 0, 0),
+    0px 0px 60px rgb(255, 0, 0),
+    inset 0px 0px 60px rgb(255, 0, 0);
+    animation: breathing 3s ease-out infinite;
+  }
+
+  .container--8 .frame {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    right: 150px;
+    top: 570px;
+    border-radius: 50px;
+    border: 5px rgb(255, 0, 119) solid;
+    box-shadow: 
+    0px 0px 20px rgb(255, 0, 119),
+    inset 0px 0px 20px rgb(255, 0, 119),
+    0px 0px 60px rgb(255, 0, 119),
+    inset 0px 0px 60px rgb(255, 0, 119);
+    animation: breathing 3s ease-out infinite;
+  }
+
+  .container--9 .frame {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 250px;
+    top: 600px;
+    border-radius: 50px;
+    border: 5px rgb(0, 139, 30) solid;
+    box-shadow: 
+    0px 0px 20px rgb(0, 139, 30),
+    inset 0px 0px 20px rgb(0, 139, 30),
+    0px 0px 60px rgb(0, 139, 30),
+    inset 0px 0px 60px rgb(0, 139, 30);
+    animation: breathing 3s ease-out infinite;
+  }
+
+  .container--6 .frame {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    right: 200px;
+    top: 250px;
+    border-radius: 50px;
+    border: 5px rgb(0, 247, 255) solid;
+    box-shadow: 
+    0px 0px 20px rgb(0, 247, 255),
+    inset 0px 0px 20px rgb(0, 247, 255),
+    0px 0px 60px rgb(0, 247, 255),
+    inset 0px 0px 60px rgb(0, 247, 255);
     animation: breathing 3s ease-out infinite;
   }
 
