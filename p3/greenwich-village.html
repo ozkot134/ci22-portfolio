@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="p3-map.css">
+	<title>Neighborhoods</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<style>
+body {
+    background-color: antiquewhite;
+  }
+
+.contents {
+    display: flex;
+   flex-flow: row;
+  align-items: center;
+  justify-items: center;
+  padding: 0;
+  margin-top: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 279px;
+  height: 358px;
+}
+
+
+#contents {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-gap: var(--margin);
+  align-items: center;
+  justify-items: center;
+  padding: 0;
+  margin-top: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.block {
+  padding: var(--margin);
+  width:var(--width), 25%;
+}
+</style>
+
+
+<body>
+	<a href="p3.html"> <img src="menu-09.png" class="menu-icon"> </a>
+
+    <div class="wrapper">
+        <ul id="contents">
+            <img src="green/Screen Shot 2022-05-13 at 23.11.55.png" alt="1">
+            <img src="green/Screen Shot 2022-05-13 at 23.12.06.png" alt="1">
+            <img src="green/Screen Shot 2022-05-13 at 23.12.11.png" alt="1">
+            <img src="green/Screen Shot 2022-05-13 at 23.12.15.png" alt="1">
+            <img src="green/Screen Shot 2022-05-13 at 23.12.23.png" alt="1">
+            <img src="green/Screen Shot 2022-05-13 at 23.12.29.png" alt="1">
+            
+        </ul>
+    </div>
+  
+      <template id="image-block">
+        <li class="block block--image all">
+          <img class="block__image" src="">
+          <p class="block__image__text">hı</p>
+        </li>
+      </template>
+  
+      <template id="link-block">
+        <li class="block block--link">
+          <a class="block__link" href="#"></a>
+        </li>
+      </template>
+
+
+
+</body>
+</html>

@@ -13,6 +13,12 @@ font-style: normal;
 color: rgb(0, 255, 21);
 }
 
+
+
+
+
+
+
 .instructions{
 display: flex;
 flex-flow: row;
@@ -25,6 +31,19 @@ flex-flow: row;
   align-content:flex-start;
 
 }
+
+.info {
+  font-family: 'hidayatullah';
+  src: url(hidayatullah_DEMO.ttf);
+  font-style: normal;
+  color: rgb(0, 255, 21);
+  font-size: 50px;
+  margin: 20px;
+  
+  }
+  a {
+  text-decoration: none;
+  }
 
 
 .textbox-field{
@@ -72,7 +91,7 @@ font-family: 'Helvetica', sans-serif;
   color: rgb(9, 255, 0);
   background-color: rgb(155, 1, 1);
   padding: 7px;
-  align-self: center;
+  align-self:flex-start;
   margin: 6px;
   
 }
@@ -114,6 +133,22 @@ src: url(hidayatullah_DEMO.ttf);
 font-style: normal;
 font-size: 110px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

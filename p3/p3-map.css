@@ -38,11 +38,18 @@ left: 630px;
 top: 67px;
 color: antiquewhite;
 }
+a {
+  text-decoration: none;
+  }
 
 
 .inwood:hover{
 color: #E5C676;
   }
+  a {
+    text-decoration: none;
+    }
+
 
 .fort-george{
   font-family: 'Titillium Web', sans-serif;
@@ -53,6 +60,9 @@ color: #E5C676;
   color: antiquewhite;
   text-decoration: none;
   }
+  a {
+    text-decoration: none;
+    }
 
   .fort-george:hover{
     color: #E5C676;
